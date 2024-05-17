@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
+
+body {
+    font-family: 'Raleway';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS';
+}   
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: lightgreen;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: transparent; /* Fondo transparente */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:first-child a {
+    border-left: 1px solid green; /* Barra izquierda */
+    padding-left: 10px; /* Espaciado izquierdo */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: green; /* Fondo verde para los enlaces */
+    padding: 5px 10px; /* Añadir un poco de relleno para mejor visualización */
+    border-radius: 5px; /* Bordes redondeados para mejor estética */
+}
+
+nav ul li a:hover {
+    background-color: darkgreen; /* Color de fondo al pasar el cursor */
+}
+
+nav ul li + li {
+    border-left: 1px solid green; /* Barra entre elementos */
+}
+
+nav ul li:last-child a {
+    border-right: 1px solid green; /* Barra derecha */
+    padding-right: 10px; /* Espaciado derecho */
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Borde gris */
+    padding: 8px;
+    text-align: left;
+}
+
+.square-gray {
+    background-color: #ccc; /* Cuadrado gris */
+    width: 20px;
+    height: 20px;
+}
+
+.square-yellow {
+    background-color: yellow; /* Cuadrado amarillo */
+    width: 20px;
+    height: 20px;
+}
+
+.square-dark-gray {
+    background-color: #666; /* Cuadrado gris oscuro */
+    width: 20px;
+    height: 20px;
+}
+
+.square-brown {
+    background-color: #8B4513; /* Cuadrado marrón */
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-image {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 20px 0;
+}
